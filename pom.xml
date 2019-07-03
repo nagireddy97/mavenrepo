@@ -27,12 +27,12 @@
   </build>
    <distributionManagement>
      <servers>
- <server>
-      <id>nexus-release</id>          <---THIS MUST MATCH
-      <username>admin</username>
-      <password>redhat</password>
-  </server>
-</servers>
+        <server>
+          <id>nexus-release</id>          <---THIS MUST MATCH
+          <username>admin</username>
+          <password>redhat</password>
+        </server>
+      </servers>
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
