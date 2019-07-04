@@ -26,14 +26,7 @@
     </plugins>
   </build>
    <distributionManagement>
-     <servers>
-        <server>
-          <id>nexus-release</id>          <---THIS MUST MATCH
-          <username>admin</username>
-          <password>redhat</password>
-        </server>
-      </servers>
-        <repository>
+         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
             <url>http://192.168.43.88:8081/repository/sample-release/</url>
