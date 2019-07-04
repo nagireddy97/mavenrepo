@@ -25,6 +25,19 @@
       </plugin>
     </plugins>
   </build>
+  <servers>
+  <server>
+      <id>deployment</id>
+      <username>admin</username>
+      <password>redhat</password>
+  </server>
+  <server>
+      <id>deployment</id>
+      <username>admin</username>
+      <password>redhat</password>
+  </server>
+
+</servers>
    <distributionManagement>
          <repository>
             <id>deployment</id>
